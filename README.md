@@ -9,6 +9,9 @@ forecast data for Lagos, Nigeria using the Open-Meteo API.
 - Tableau Public
 
 ## What it does
+- Combines two APIs in one pipeline — OpenWeatherMap 
+  for current conditions and Open-Meteo for 72-hour forecast
+- Stores API key securely using .env and python-dotenv
 - Calls the Open-Meteo REST API with custom parameters
 - Extracts hourly temperature, wind speed and humidity data
 - Structures the response into a clean pandas DataFrame
